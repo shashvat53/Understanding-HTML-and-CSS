@@ -45,6 +45,7 @@ li {
 
 #copyright {
   font-size: 16px;
+  /* text-align: center; */
 }
 .related-auther {
   font-weight: bold;
@@ -57,9 +58,40 @@ li {
 .main-header {
   background-color: #f7f7f7;
 }
-aside {
-  background-color: #f7f7f7;
 
+aside {
+  background-color: #fff;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+/* li:nth-child(2) {
+  color: red;
+}
+article p:last-child {
+  color: green;
+} */
+
+/* styling links */
+
+a:link {
+  text-decoration: none;
+  color: #1098ad;
+}
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline solid orange;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
